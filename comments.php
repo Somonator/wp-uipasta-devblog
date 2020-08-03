@@ -1,0 +1,1 @@
+<p style="margin-top: 50px;">Designer UiPasta is ignore comment list. He is recomented to install comments system like disqus. I will create native wordpress comments in next versions. Please, use, for exapmle - wpDiscuz.</p>

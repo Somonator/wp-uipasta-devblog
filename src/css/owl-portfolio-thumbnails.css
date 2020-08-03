@@ -1,0 +1,39 @@
+.owl-portfolio-thumbnails .owl-wrapper[style],
+.owl-portfolio-thumbnails .owl-stage[style] {
+    display: flex !important;
+}
+.owl-portfolio-thumbnails .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-portfolio-thumbnails .owl-controls {
+    margin-top: 0px;
+}
+.owl-portfolio-thumbnails .owl-controls .owl-buttons div {
+    display: inline-block;
+    zoom: 1;
+    margin: 5px;
+    margin-top: -32px;
+    padding: 7px 13px;
+    background-color: transparent;
+    opacity: 1;
+}
+.owl-portfolio-thumbnails .owl-prev,
+.owl-portfolio-thumbnails .owl-next {
+    position: absolute;
+    top: 50%;
+    padding: 5px;
+    margin: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+.owl-portfolio-thumbnails .owl-prev {
+    left: 2px;
+}
+.owl-portfolio-thumbnails .owl-next {
+    right: 2px;
+}
+.owl-portfolio-thumbnails .owl-navi {
+    color: #333333;
+}

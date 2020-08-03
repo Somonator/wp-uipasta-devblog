@@ -1,0 +1,36 @@
+#multiple-thumbnails label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+#multiple-thumbnails .thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px 20px -5px;
+}
+#multiple-thumbnails .thumbnails .item {
+    border: 1px solid #016087;
+    border-radius: 3px;
+    width: 150px;
+    height: 150px;
+    padding: 5px;    
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#multiple-thumbnails .thumbnails .item img {
+    max-width: 100%;
+    display: block;
+}
+#multiple-thumbnails .thumbnails .item .remove {
+    background: #f3f5f6;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #016087;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
