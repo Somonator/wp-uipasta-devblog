@@ -221,7 +221,7 @@ class upd_template_parts {
 							</div>
 						<? }
 	
-						edit_comment_link(__('[Edit]', 'upd'), '  ', '' ) ?>
+						edit_comment_link(__('[edit]', 'upd'), '  ', '' ) ?>
 					</div>
 
 					<? if ($comment->comment_parent) { ?>

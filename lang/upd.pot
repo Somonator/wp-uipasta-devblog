@@ -89,10 +89,6 @@ msgstr ""
 msgid "Awaiting for approval"
 msgstr ""
 
-#: functions.php:224
-msgid "[Edit]"
-msgstr ""
-
 #: functions.php:230
 msgid "Reply to"
 msgstr ""
@@ -282,7 +278,7 @@ msgid "Mailchimp api key or list id is empty"
 msgstr ""
 
 #: searchform.php:2
-msgid "Search …"
+msgid "Search…"
 msgstr ""
 
 #: searchform.php:3
@@ -314,6 +310,7 @@ msgid "About Project"
 msgstr ""
 
 #: template-parts/content-portfolio.php:38
+#: functions.php:224
 #: template-parts/content-testimonials.php:4
 msgid "[edit]"
 msgstr ""

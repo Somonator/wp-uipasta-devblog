@@ -1,19 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ui Pasta Dev Blog\n"
-"Language-Team: none\n"
+"Language-Team: Русский\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e\n"
 "X-Poedit-Basepath: ..\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: 2020-08-16 17:48+0000\n"
+"PO-Revision-Date: 2020-08-16 21:06+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
-"Last-Translator: \n"
+"Last-Translator: admin <dont@gmail.com>\n"
 "Language: ru_RU\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.3.0; wp-5.4.2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
@@ -73,7 +77,7 @@ msgstr "теги:"
 
 #: functions.php:176
 msgid "by"
-msgstr "написано"
+msgstr "автор:"
 
 #: functions.php:186
 #, php-format
@@ -88,9 +92,10 @@ msgstr "Автор"
 msgid "Awaiting for approval"
 msgstr "Ожидает модерации"
 
-#: functions.php:224
-msgid "[Edit]"
-msgstr "[Изменить]"
+#: functions.php:224 template-parts/content-portfolio.php:38
+#: template-parts/content-testimonials.php:4
+msgid "[edit]"
+msgstr "[изменить]"
 
 #: functions.php:230
 msgid "Reply to"
@@ -281,7 +286,7 @@ msgid "Mailchimp api key or list id is empty"
 msgstr "Mailchimp api key или list id не указаны"
 
 #: searchform.php:2
-msgid "Search …"
+msgid "Search…"
 msgstr "Поиск …"
 
 #: searchform.php:3
@@ -294,7 +299,7 @@ msgstr "Автор"
 
 #: single.php:41
 msgid "You may also like"
-msgstr "Вам может также понварится"
+msgstr "Вам может также понравится"
 
 #: template-parts/content-none.php:1
 msgid "Posts not found"
@@ -311,11 +316,6 @@ msgstr "Название"
 #: template-parts/content-portfolio.php:37
 msgid "About Project"
 msgstr "Про проект"
-
-#: template-parts/content-portfolio.php:38
-#: template-parts/content-testimonials.php:4
-msgid "[edit]"
-msgstr "[изменить]"
 
 #: template-parts/content.php:15
 msgid "Read more"
