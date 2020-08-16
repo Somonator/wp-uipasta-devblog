@@ -28,4 +28,4 @@ Tutorial get data:
 - List id. Go to Audience Dashboard in top menu. Select Settings in Manage Audience select. Click Audience name and defaults. See string in Audience ID block.
 
 # Original layout
-[DevBlog – Personal Blog Template](https://www.uipasta.com/devblog-personal-blog-template/
+[DevBlog – Personal Blog Template](https://www.uipasta.com/devblog-personal-blog-template/)
