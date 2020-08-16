@@ -1,0 +1,364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ui Pasta Dev Blog\n"
+"Language-Team: none\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: archive.php:18 index.php:12
+msgid "Load"
+msgstr "Загрузить"
+
+#: archive.php:18 functions.php:85 index.php:12
+msgid "End"
+msgstr "Конец"
+
+#: comments.php:8
+msgid "Discuss about post"
+msgstr "Обсудить пост"
+
+#: comments.php:16
+#, php-format
+msgctxt "upd"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] "%1$s комментарий"
+msgstr[1] "%1$s комментария"
+msgstr[2] "%1$s комментариев"
+
+#: footer.php:15
+#, php-format
+msgid "© Copyright %1$s DevBlog. All rights reserved"
+msgstr "© Copyright %1$s DevBlog. Все права защищены"
+
+#: footer.php:17
+msgid "Design By"
+msgstr "Дизайнер"
+
+#: functions.php:37
+msgid "Menu in footer"
+msgstr "Меню в подвале"
+
+#: functions.php:43
+msgid "Left sidebar"
+msgstr "Левая колонка"
+
+#: functions.php:45
+msgid "Widgets in left sidebar"
+msgstr "Меню в левой колонке"
+
+#: functions.php:73
+msgid "Error ajax request"
+msgstr "Ошибка запроса"
+
+#: functions.php:84
+msgid "..."
+msgstr "..."
+
+#: functions.php:171
+msgid "tags:"
+msgstr "теги:"
+
+#: functions.php:176
+msgid "by"
+msgstr "написано"
+
+#: functions.php:186
+#, php-format
+msgid "%s ago"
+msgstr "%s тому назад"
+
+#: functions.php:204
+msgid "Author"
+msgstr "Автор"
+
+#: functions.php:220
+msgid "Awaiting for approval"
+msgstr "Ожидает модерации"
+
+#: functions.php:224
+msgid "[Edit]"
+msgstr "[Изменить]"
+
+#: functions.php:230
+msgid "Reply to"
+msgstr "Отвечено"
+
+#: functions.php:242
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:269
+msgid "Personal info"
+msgstr "Персональная информация"
+
+#: functions.php:270
+msgid "Customize static widget in the left sidebar"
+msgstr "Кастомизировать статический виджет в правой колонке"
+
+#: functions.php:285
+msgid "Enable widget"
+msgstr "Включить виджет"
+
+#: functions.php:300
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: functions.php:308
+msgid "Alex Parker"
+msgstr "Алекс Паркер"
+
+#: functions.php:315
+msgid "Yout name"
+msgstr "Ваше имя"
+
+#: functions.php:323
+msgid "Web deleloper"
+msgstr "Веб разработчик"
+
+#: functions.php:330
+msgid "Yout position"
+msgstr "Ваш род занятости"
+
+#: functions.php:338
+msgid "Menu in sidebar"
+msgstr "Меню в колонке"
+
+#: functions.php:339
+msgid "Social menu in sidebar"
+msgstr "Соц. меню в колонке"
+
+#: functions.php:356 functions.php:368
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: functions.php:357
+msgid "All works"
+msgstr "Все работы"
+
+#: functions.php:358
+msgid "Works"
+msgstr "Работы"
+
+#: functions.php:359
+msgid "Add work"
+msgstr "Добавить работу"
+
+#: functions.php:360
+msgid "Add new work"
+msgstr "Добавить новую работу"
+
+#: functions.php:361 functions.php:490
+msgid "Edit"
+msgstr "Изменить"
+
+#: functions.php:362
+msgid "New work"
+msgstr "Новая работа"
+
+#: functions.php:363 functions.php:492
+msgid "View"
+msgstr "Просмотреть"
+
+#: functions.php:364 functions.php:493
+msgid "Find"
+msgstr "Найти"
+
+#: functions.php:365 functions.php:494
+msgid "Nothing found"
+msgstr "Нечего не найдено"
+
+#: functions.php:366 functions.php:495
+msgid "There is nothing in the basket"
+msgstr "В корзине нечего нет"
+
+#: functions.php:416
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: functions.php:417
+msgid "Select"
+msgstr "Выбрать"
+
+#: functions.php:428
+msgid "Link"
+msgstr "Ссылка"
+
+#: functions.php:429
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: functions.php:437
+msgid "Link to work"
+msgstr "Ссылка на работу"
+
+#: functions.php:438
+msgid "Enter link to the work"
+msgstr "Введите ссылку на работу"
+
+#: functions.php:446
+msgid "Choose thumbnails"
+msgstr "Выбрать миниатюры"
+
+#: functions.php:460
+msgid "Add thumbnails"
+msgstr "Добавить миниатюры"
+
+#: functions.php:485 functions.php:487 functions.php:497
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: functions.php:486
+msgid "All testimonial"
+msgstr "Все отзывы"
+
+#: functions.php:488
+msgid "Add testimonial"
+msgstr "Добавить отзыв"
+
+#: functions.php:489
+msgid "Add new testimonial"
+msgstr "Добавить новый отзыв"
+
+#: functions.php:491
+msgid "New testimonial"
+msgstr "Новый отзыв"
+
+#: functions.php:531
+msgid "Author name"
+msgstr "Имя автора"
+
+#: functions.php:539
+msgid "Position"
+msgstr "Род занятости"
+
+#: functions.php:547
+msgid "Enter the position of author testimonial"
+msgstr "Введите род занятости автора"
+
+#: functions.php:548
+msgid "Position of author"
+msgstr "Род занятости автора"
+
+#: functions.php:608
+msgid "Subscribe form"
+msgstr "Форма подписки"
+
+#: functions.php:609
+msgid "Options subscribe form"
+msgstr "Настройки формы подписки"
+
+#: functions.php:624
+msgid "Enable form"
+msgstr "Включить форму"
+
+#: functions.php:639
+msgid "Mailchimp api key"
+msgstr "Mailchimp api key"
+
+#: functions.php:654
+msgid "Mailchimp list id"
+msgstr "Mailchimp list id"
+
+#: functions.php:668
+msgid "Thank you. You have subscribed successfully"
+msgstr "Спасибо. Вы успешно подписались на рассылку"
+
+#: functions.php:682
+msgid "Mailchimp api key or list id is empty"
+msgstr "Mailchimp api key или list id не указаны"
+
+#: searchform.php:2
+msgid "Search …"
+msgstr "Поиск …"
+
+#: searchform.php:3
+msgid "Search"
+msgstr "Поиск"
+
+#: single.php:34
+msgid "Article by"
+msgstr "Автор"
+
+#: single.php:41
+msgid "You may also like"
+msgstr "Вам может также понварится"
+
+#: template-parts/content-none.php:1
+msgid "Posts not found"
+msgstr "Посты не найдены"
+
+#: template-parts/content-portfolio.php:28
+msgid "Url"
+msgstr "Ссылка"
+
+#: template-parts/content-portfolio.php:31
+msgid "Title"
+msgstr "Название"
+
+#: template-parts/content-portfolio.php:37
+msgid "About Project"
+msgstr "Про проект"
+
+#: template-parts/content-portfolio.php:38
+#: template-parts/content-testimonials.php:4
+msgid "[edit]"
+msgstr "[изменить]"
+
+#: template-parts/content.php:15
+msgid "Read more"
+msgstr "Читать далее"
+
+#: theme-parts/comments-form.php:14
+msgid "Login"
+msgstr "Войти"
+
+#: theme-parts/comments-form.php:17
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>"
+msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>"
+
+#: theme-parts/comments-form.php:19
+#, php-format
+msgid "<a href=\"%1$s\">Log out?</a>"
+msgstr "<a href=\"%1$s\">Выйти?</a>"
+
+#: theme-parts/comments-form.php:24
+msgid "Name"
+msgstr "Имя"
+
+#: theme-parts/comments-form.php:28
+msgid "Email"
+msgstr "Почта"
+
+#: theme-parts/comments-form.php:33
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: theme-parts/comments-form.php:41 theme-parts/comments-form.php:54
+msgid "Join the discussion"
+msgstr "Присоединиться к комментированию"
+
+#: theme-parts/subscribe-form.php:8
+msgid "Email Address"
+msgstr "Ваша почта"
+
+#: theme-parts/subscribe-form.php:9
+msgid "Submit"
+msgstr "Отправить"
+
+#: theme-parts/subscribe-form.php:12
+msgid "Subscribe to my weekly newsletter"
+msgstr "Подпишитесь на рассылку"

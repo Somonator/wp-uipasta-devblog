@@ -1,0 +1,365 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ui Pasta Dev Blog\n"
+"Last-Translator: Somonator <somonator@gmail.com>\n"
+"Language-Team: none\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: archive.php:18 index.php:12
+msgid "Load"
+msgstr ""
+
+#: archive.php:18 functions.php:85 index.php:12
+msgid "End"
+msgstr ""
+
+#: comments.php:8
+msgid "Discuss about post"
+msgstr ""
+
+#: comments.php:16
+#, php-format
+msgctxt "upd"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: footer.php:15
+#, php-format
+msgid "© Copyright %1$s DevBlog. All rights reserved"
+msgstr ""
+
+#: footer.php:17
+msgid "Design By"
+msgstr ""
+
+#: functions.php:37
+msgid "Menu in footer"
+msgstr ""
+
+#: functions.php:43
+msgid "Left sidebar"
+msgstr ""
+
+#: functions.php:45
+msgid "Widgets in left sidebar"
+msgstr ""
+
+#: functions.php:73
+msgid "Error ajax request"
+msgstr ""
+
+#: functions.php:84
+msgid "..."
+msgstr ""
+
+#: functions.php:171
+msgid "tags:"
+msgstr ""
+
+#: functions.php:176
+msgid "by"
+msgstr ""
+
+#: functions.php:186
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: functions.php:204
+msgid "Author"
+msgstr ""
+
+#: functions.php:220
+msgid "Awaiting for approval"
+msgstr ""
+
+#: functions.php:224
+msgid "[Edit]"
+msgstr ""
+
+#: functions.php:230
+msgid "Reply to"
+msgstr ""
+
+#: functions.php:242
+msgid "Reply"
+msgstr ""
+
+#: functions.php:269
+msgid "Personal info"
+msgstr ""
+
+#: functions.php:270
+msgid "Customize static widget in the left sidebar"
+msgstr ""
+
+#: functions.php:285
+msgid "Enable widget"
+msgstr ""
+
+#: functions.php:300
+msgid "Thumbnail"
+msgstr ""
+
+#: functions.php:308
+msgid "Alex Parker"
+msgstr ""
+
+#: functions.php:315
+msgid "Yout name"
+msgstr ""
+
+#: functions.php:323
+msgid "Web deleloper"
+msgstr ""
+
+#: functions.php:330
+msgid "Yout position"
+msgstr ""
+
+#: functions.php:338
+msgid "Menu in sidebar"
+msgstr ""
+
+#: functions.php:339
+msgid "Social menu in sidebar"
+msgstr ""
+
+#: functions.php:356 functions.php:368
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:357
+msgid "All works"
+msgstr ""
+
+#: functions.php:358
+msgid "Works"
+msgstr ""
+
+#: functions.php:359
+msgid "Add work"
+msgstr ""
+
+#: functions.php:360
+msgid "Add new work"
+msgstr ""
+
+#: functions.php:361 functions.php:490
+msgid "Edit"
+msgstr ""
+
+#: functions.php:362
+msgid "New work"
+msgstr ""
+
+#: functions.php:363 functions.php:492
+msgid "View"
+msgstr ""
+
+#: functions.php:364 functions.php:493
+msgid "Find"
+msgstr ""
+
+#: functions.php:365 functions.php:494
+msgid "Nothing found"
+msgstr ""
+
+#: functions.php:366 functions.php:495
+msgid "There is nothing in the basket"
+msgstr ""
+
+#: functions.php:416
+msgid "Select image"
+msgstr ""
+
+#: functions.php:417
+msgid "Select"
+msgstr ""
+
+#: functions.php:428
+msgid "Link"
+msgstr ""
+
+#: functions.php:429
+msgid "Thumbnails"
+msgstr ""
+
+#: functions.php:437
+msgid "Link to work"
+msgstr ""
+
+#: functions.php:438
+msgid "Enter link to the work"
+msgstr ""
+
+#: functions.php:446
+msgid "Choose thumbnails"
+msgstr ""
+
+#: functions.php:460
+msgid "Add thumbnails"
+msgstr ""
+
+#: functions.php:485 functions.php:487 functions.php:497
+msgid "Testimonials"
+msgstr ""
+
+#: functions.php:486
+msgid "All testimonial"
+msgstr ""
+
+#: functions.php:488
+msgid "Add testimonial"
+msgstr ""
+
+#: functions.php:489
+msgid "Add new testimonial"
+msgstr ""
+
+#: functions.php:491
+msgid "New testimonial"
+msgstr ""
+
+#: functions.php:531
+msgid "Author name"
+msgstr ""
+
+#: functions.php:539
+msgid "Position"
+msgstr ""
+
+#: functions.php:547
+msgid "Enter the position of author testimonial"
+msgstr ""
+
+#: functions.php:548
+msgid "Position of author"
+msgstr ""
+
+#: functions.php:608
+msgid "Subscribe form"
+msgstr ""
+
+#: functions.php:609
+msgid "Options subscribe form"
+msgstr ""
+
+#: functions.php:624
+msgid "Enable form"
+msgstr ""
+
+#: functions.php:639
+msgid "Mailchimp api key"
+msgstr ""
+
+#: functions.php:654
+msgid "Mailchimp list id"
+msgstr ""
+
+#: functions.php:668
+msgid "Thank you. You have subscribed successfully"
+msgstr ""
+
+#: functions.php:682
+msgid "Mailchimp api key or list id is empty"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search …"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: single.php:34
+msgid "Article by"
+msgstr ""
+
+#: single.php:41
+msgid "You may also like"
+msgstr ""
+
+#: template-parts/content-none.php:1
+msgid "Posts not found"
+msgstr ""
+
+#: template-parts/content-portfolio.php:28
+msgid "Url"
+msgstr ""
+
+#: template-parts/content-portfolio.php:31
+msgid "Title"
+msgstr ""
+
+#: template-parts/content-portfolio.php:37
+msgid "About Project"
+msgstr ""
+
+#: template-parts/content-portfolio.php:38
+#: template-parts/content-testimonials.php:4
+msgid "[edit]"
+msgstr ""
+
+#: template-parts/content.php:15
+msgid "Read more"
+msgstr ""
+
+#: theme-parts/comments-form.php:14
+msgid "Login"
+msgstr ""
+
+#: theme-parts/comments-form.php:17
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: theme-parts/comments-form.php:19
+#, php-format
+msgid "<a href=\"%1$s\">Log out?</a>"
+msgstr ""
+
+#: theme-parts/comments-form.php:24
+msgid "Name"
+msgstr ""
+
+#: theme-parts/comments-form.php:28
+msgid "Email"
+msgstr ""
+
+#: theme-parts/comments-form.php:33
+msgid "Remember me"
+msgstr ""
+
+#: theme-parts/comments-form.php:41 theme-parts/comments-form.php:54
+msgid "Join the discussion"
+msgstr ""
+
+#: theme-parts/subscribe-form.php:8
+msgid "Email Address"
+msgstr ""
+
+#: theme-parts/subscribe-form.php:9
+msgid "Submit"
+msgstr ""
+
+#: theme-parts/subscribe-form.php:12
+msgid "Subscribe to my weekly newsletter"
+msgstr ""

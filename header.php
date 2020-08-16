@@ -22,9 +22,14 @@ $head_tag = is_front_page() ? 'h1' : 'div';
         <main class="main">
             <div class="page-wrap block-appearance">
                 <div class="page-heading">
-                    <<? echo $head_tag ?> class="page-title"><? echo get_bloginfo('name') ?></<? echo $head_tag ?>>
+                    <?
+                    printf('<%1$s class="page-title">%2$s</%1$s>', $head_tag, get_bloginfo('name'));
 
-                    <? if (!is_front_page()) { ?>
+                    if (is_single() && comments_open()) { ?>
+                        <a href="#comments" class="link">
+                            <i class="fa fa-comments" aria-hidden="true"></i>
+                        </a>
+                    <? } else if (!is_front_page()) { ?>
                         <a href="<? echo home_url() ?>" class="link">
                             <i class="fa fa-home" aria-hidden="true"></i>
                         </a>

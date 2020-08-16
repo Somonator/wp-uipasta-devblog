@@ -1,0 +1,9 @@
+/* Field */
+.default-text-field label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.default-text-field input {
+    width: 100%;
+}

@@ -3,6 +3,8 @@ get_header();
 
 $is_pagination = $wp_query->max_num_pages > 1;
 
+the_archive_title('<h1 class="archive-title">', '</h1>');
+
 if (have_posts()) :
 ?>
 	<div class="blog-posts">

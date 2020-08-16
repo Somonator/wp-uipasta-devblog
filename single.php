@@ -4,7 +4,8 @@ get_header();
 $args = [
 	'post_type' => get_post_type(),
 	'orderby' => 'rand',	
-	'posts_per_page' => 3
+	'posts_per_page' => 3,
+	'post__not_in' => [get_the_id()]
 ];
 
 $read_also = new WP_Query($args);
@@ -43,10 +44,13 @@ while (have_posts()): the_post();
 				<div class="ra-post">
 					<a href="<? the_permalink() ?>" class="link"><? the_title() ?></a>
 				</div>
-			<? endwhile; ?>
+			<?
+			endwhile; 
+			wp_reset_query();
+			?>
 		</div>
 	</div>
-<? } 
+<? }
 
 if (comments_open() || get_comments_number()) {
 	comments_template();

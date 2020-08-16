@@ -1,15 +1,6 @@
 				</div>
 
-				<!-- <div class="subscribe">
-					<form action="#" class="subscribe-form">
-						<input type="email" placeholder="Email Address" name="email" class="email">
-						<input type="submit" class="submit" value="Submit">
-					</form>
-
-					<p><? _e('Subscribe to my weekly newsletter', 'upd') ?></p>
-
-					<p id="notice" style="display: none;"><? _e('Submiting...', 'upd') ?></p>
-				</div> -->
+				<? get_template_part('theme-parts/subscribe-form'); ?>
 			</div>
 
 			<footer class="footer block-appearance">
@@ -21,7 +12,7 @@
 					'fallback_cb' => '__return_empty_string'
 				]) ?>
 
-				<p class="copyright"><? echo __('© Copyright', 'upd') . ' ' . date('Y') . ' ' . __('DevBlog. All rights reserved', 'upd') ?></p>
+				<p class="copyright"><? printf(__('© Copyright %1$s DevBlog. All rights reserved', 'upd'), date('Y')) ?></p>
 
 				<div class="uipasta-credit"><? _e('Design By', 'upd') ?> <a href="https://www.uipasta.com" target="_blank">UiPasta</a></div>
 			</footer>

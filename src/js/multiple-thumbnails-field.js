@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
             button: {
                 text: mf_text.btn_select_popup
             },
-            multiple: 'add'
+            multiple: 'add' // enable multiple, not "true"
         });
         
         files_modal.on('open', function() {
