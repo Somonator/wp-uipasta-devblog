@@ -710,6 +710,11 @@ input[type="submit"] {
 .page-content p iframe {
     margin: 40px 0 30px 0; /* margin-bottom = this margin + margin p tag = 40px */
 }
+.page-content [id*="attachment"],
+.page-content p img {
+    margin: 40px 0;
+	max-width: 100%;
+}
 
 /* testimonials shortcode */
 .testimonials {
